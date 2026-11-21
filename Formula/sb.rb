@@ -1,16 +1,16 @@
 class Sb < Formula
   desc "SpanBarn CLI — query traces, logs, metrics and prompt samples"
   homepage "https://github.com/wiebe-xyz/spanbarn"
-  version "0.3.566"
+  version "0.3.567"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://webwiebe.nl/brew/sb-darwin-amd64-0.3.566.tar.gz"
-      sha256 "67b9368ee6644955c159f48df6bb99f06e039758bb65f4739e1ffdf8dec6ed2a"
+      url "https://webwiebe.nl/brew/sb-darwin-amd64-0.3.567.tar.gz"
+      sha256 "1d351351aa27a2408538e6d1132842faf7284ccc8be9578a7f17de62b79625a3"
     elsif Hardware::CPU.arm?
-      url "https://webwiebe.nl/brew/sb-darwin-arm64-0.3.566.tar.gz"
-      sha256 "5e1fe9b2415d87393498f4497171d007b8fe8b0878782206cbeac0110d8b60d8"
+      url "https://webwiebe.nl/brew/sb-darwin-arm64-0.3.567.tar.gz"
+      sha256 "391aa5424169b66a045766e03130e8fef04d9b90f1a548f21f80d5cffd7a7214"
     end
   end
 
